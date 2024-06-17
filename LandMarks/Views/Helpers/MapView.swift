@@ -25,7 +25,7 @@ struct MapView: View {
 
 #Preview {
     MapView(locationCoordinate:CLLocationCoordinate2D(
-        latitude: landmarks[0].locationCoordinate.latitude,
-        longitude: landmarks[0].locationCoordinate.longitude)
+        latitude: ModelData().landmarks[0].locationCoordinate.latitude,
+        longitude: ModelData().landmarks[0].locationCoordinate.longitude)
     )
 }
